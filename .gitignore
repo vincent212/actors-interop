@@ -1,0 +1,36 @@
+# Rust build artifacts
+rust/target/
+rust/Cargo.lock
+
+# C++ build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# Generated code (can be regenerated)
+generated/cpp/*.cpp
+generated/cpp/*.hpp
+generated/rust/*.rs
+
+# Example binaries
+examples/ping_pong/ping_pong
+examples/pubsub/pubsub
+examples/rust_ping_cpp_pong/rust_ping_cpp_pong
+examples/rust_subscribes_cpp_publisher/rust_subscribes_cpp_publisher
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Debug files
+*.dSYM/
+core
+core.*
+examples/pubsub/pubsub_debug
